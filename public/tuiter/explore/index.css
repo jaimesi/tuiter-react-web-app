@@ -1,0 +1,208 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+#div-heading {
+    padding-left: 16px;
+    padding-top: 12px;
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-grid-full-row {
+    width: 100%;
+    float: left;
+}
+
+.wd-grid-searchbar {
+    width: 85%;
+    float: left;
+}
+
+.wd-grid-settings {
+    width: 15%;
+    float: left;
+}
+
+.wd-search {
+    width: 85%;
+    position: relative;
+    display: flex;
+}
+
+.wd-search-input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    padding-left: 16px;
+    border-radius: 0 50px 50px 0;
+    outline: none;
+    color: white;
+    background-color: darkgray;
+}
+
+.wd-gear-icon {
+    font-size: 20px;
+    color: rgb(29,161,242);
+}
+
+#gear-icon {
+    float: right;
+    padding-right: 16px;
+    padding-top: 8px;
+}
+
+.wd-search-icon {
+    font-size: 15px;
+    color: gray;
+    background-color: darkgray;
+    height: 35px;
+    border: none;
+    padding-top: 2px;
+    border-radius: 50px 0 0 50px;
+}
+
+#search-icon {
+    float: left;
+    padding-left: 16px;
+    padding-top: 8px;
+    height: 35px;
+}
+
+#explore-settings-icon {
+    color: rgb(29,161,242);
+}
+
+.wd-hyperlink-text {
+    font-size: 15px;
+    color: rgb(110,118,125);
+    padding: 16px;
+    background-color: black;
+}
+
+.wd-explore-tab {
+    width: 580px;
+}
+
+#for-you {
+    color: rgb(29,161,242);
+    padding-left: 0;
+    border-bottom: 3px solid rgb(29,161,242);
+    margin-right: 16px;
+    padding-right: 0;
+}
+
+#entertainment {
+    padding-right: 12px;
+}
+
+#explore-main-divider {
+    border: 4px solid #202020;
+    margin: 0;
+}
+
+.wd-trending-header {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    margin: 0;
+}
+
+.wd-trending-title {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    font-size: 16px;
+}
+
+.wd-trending-num-tweets {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.wd-div-trending-topics {
+    padding-left: 16px;
+    border: 1px solid rgb(47, 51, 54);
+    margin-top: -1px;
+}
+
+.wd-articles-with-author {
+    padding-left: 16px;
+    border: 1px solid rgb(47, 51, 54);
+    margin-top: -1px;
+}
+
+.wd-article-author {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.wd-article-thumbnail {
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.wd-article-paragraph {
+    margin-bottom: 6px;
+}
+
+.wd-article-title {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 30px;
+    margin-top: 0;
+}
+
+.wd-article-title-short {
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 44px;
+    margin-top: 0;
+}
+
+.wd-article-image {
+    width: 80px;
+    height: 80px;
+    float: right;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    margin-right: 16px;
+}
+
+.wd-article-without-author {
+    padding-left: 16px;
+    border: 1px solid rgb(47, 51, 54);
+    margin-top: -1px;
+}
+
+.wd-article-no-author-header {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    margin: 0;
+}
+
+.wd-image-no-author {
+    margin-top: 12px;
+}
+
+.wd-back-button {
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+}
