@@ -1,0 +1,238 @@
+#search-button {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 16px;
+    font-size: 16px;
+    z-index: 10;
+}
+
+#search-bar {
+    background-color: #efefef;
+    border-color: #efefef;
+}
+
+#search-bar[type="search"]:focus {
+    box-shadow: none;
+}
+
+.wd-bottom-left {
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+#gear-icon {
+    color: black;
+    font-size: 18px;
+}
+
+.wd-bold-text {
+    font-weight: bold;
+}
+
+.wd-rounded-img {
+    border-radius: 10px
+}
+
+.wd-rounded-icon {
+    border-radius: 50%;
+}
+
+.wd-box-shadow-none {
+    box-shadow: none;
+}
+
+.wd-follow-button-style {
+    width: 74px;
+    height: 30px;
+}
+
+.wd-absolute-position {
+    position: absolute;
+}
+
+.btn-primary.wd-follow-button-override {
+    background-color: black;
+    border-color: black;
+    font-weight: bold;
+}
+
+.list-group-item.wd-follow-override {
+    background: #f7f7f7;
+    border: none;
+}
+
+.wd-follow-rounded-override {
+    border-radius: 16px;
+}
+
+#who-to-follow {
+    font-size: 18px;
+}
+
+.wd-rounded-corners-dp-override {
+    border-radius: 4px;
+}
+
+#show-more {
+    text-decoration: none;
+    color: rgb(29,161,242);
+}
+
+.wd-promoted-override {
+    font-size: 13px;
+}
+
+#promotion-arrow {
+    font-size: 12px;
+}
+
+.wd-gold-check-override {
+    color: goldenrod;
+}
+
+.wd-blue-check-override {
+    color: rgb(29,161,242);
+}
+
+.wd-pointsbet-limit {
+    max-width: 17ch;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+#pointsbet-usa {
+    margin-top: -6px;
+}
+
+@media (min-width: 600px)
+and (max-width: 1200px) {
+    .media-query {
+        max-width: 14ch;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+    }
+}
+
+#tuiter-logo {
+    color: rgb(29,161,242);
+}
+
+.wd-no-border {
+    border: none;
+}
+
+.active {
+    background-color: white!important;
+}
+
+.active span {
+    color: black;
+    font-weight: bold;
+}
+
+#navbar span {
+    font-size: 17px;
+}
+
+.d-grid button {
+    background-color: rgb(29,161,242);
+    border-color: rgb(29,161,242);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+#for-you {
+    border-bottom: 5px solid rgb(29,161,242);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-weight: bold;
+    color: black;
+}
+
+#main-content {
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.list-group p {
+    font-size: 14px;
+}
+
+.list-group button {
+    font-size: 14px;
+}
+
+.wd-main-navbar {
+    border: none;
+}
+
+.nav-tabs a {
+    color: gray;
+    font-weight: bold;
+}
+
+.card .card-img-overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.wd-tennis-bottom-left {
+    position: absolute;
+    left: 14px;
+    bottom: 44px;
+    color: white;
+    font-size: 13px;
+}
+
+.list-group .list-group-item .card-title {
+    font-size: 17px;
+}
+
+.wd-grey-ellipsis {
+    color: gray;
+}
+
+#comma {
+    margin-left: -4px;
+}
+
+.wd-barr {
+    font-size: 14px;
+    color: rgb(29,161,242);
+}
+
+.wd-main-borders {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #efefef;
+}
+
+.wd-small-text {
+    font-size: 12px;
+    color: gray;
+}
+
+#settings-more {
+    font-size: 12px;
+    margin-left: -8px;
+}
+
+#copyright-icon {
+    font-size: 12px;
+}
+
+.wd-back-button {
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+}

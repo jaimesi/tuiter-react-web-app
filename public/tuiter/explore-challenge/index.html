@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore - Challenge</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          rel="stylesheet"/>
+    <link href="index.css"
+          rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet"/>
+</head>
+<body>
+
+
+<div class="container mt-2 mb-3 ps-4">
+    <a class="wd-back-button" href="../navigation.html">Back</a>
+</div>
+
+<div class="container mt-2 mb-3">
+
+    <!--      Navigation bar, left column-->
+    <div class="row">
+        <div class="col-2 col-lg-1 col-xl-2 col-xxl-2 pe-3">
+            <div class="list-group mb-2" id="navbar">
+                <a href="#" class="list-group-item list-group-item-action disabled wd-no-border mb-2" id="tuiter-logo">
+                    <span class="fab fa-tumblr"></span>
+                    <span class="d-none d-xl-inline"></span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action wd-no-border mb-2">
+                    <span class="fa fa-home"></span>
+                    <span class="d-none d-xl-inline ms-2">Home</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action active wd-no-border mb-2">
+                    <span class="fa fa-hashtag"></span>
+                    <span class="d-none d-xl-inline ms-2">Explore</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action wd-no-border mb-2">
+                    <span class="fa fa-bell"></span>
+                    <span class="d-none d-xl-inline ms-2">Notifications</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action wd-no-border mb-2">
+                    <span class="fa fa-envelope"></span>
+                    <span class="d-none d-xl-inline ms-2">Messages</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action wd-no-border mb-2">
+                    <span class="fa fa-bookmark"></span>
+                    <span class="d-none d-xl-inline ms-2">Bookmarks</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action wd-no-border mb-2">
+                    <span class="fa fa-fire"></span>
+                    <span class="d-none d-xl-inline ms-2">Top Articles</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action wd-no-border mb-2">
+                    <span class="fa fa-user"></span>
+                    <span class="d-none d-xl-inline ms-2">Profile</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action wd-no-border mb-2">
+                    <span class="fa fa-ellipsis-h"></span>
+                    <span class="d-none d-xl-inline ms-2">More</span>
+                </a>
+            </div>
+            <div class="d-grid me-2">
+                <button class="btn btn-primary rounded-pill" type="button">Tuit</button>
+            </div>
+        </div>
+
+        <!--        Main content, center column-->
+        <div class="col-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6" id="main-content">
+            <div class="input-group mb-2 ps-4 pe-4">
+                <input class="form-control rounded-pill ps-5"
+                       id="search-bar"
+                       type="search"
+                       placeholder="Search Tuiter">
+                <i class="fa fa-search" id="search-button"></i>
+                <button class="border-0 bg-white">
+                    <i id="gear-icon" class="fa fa-gear ps-4"></i>
+                </button>
+            </div>
+            <ul class="nav nav-tabs mb-2 justify-content-center justify-content-between ps-3 me-4 pe-2 wd-main-navbar">
+                <li class="nav-item">
+                    <a class="nav-link active ps-0 pe-0 ms-2" href="#" id="for-you">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ps-0 pe-0" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ps-0 pe-0" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ps-0 pe-0" href="#">Sports</a>
+                </li>
+                <li class="nav-item d-none d-md-inline">
+                    <a class="nav-link ps-0 pe-0" href="#">Entertainment</a>
+                </li>
+            </ul>
+
+            <div class="card">
+                <img src="../images/aus-open.jpg"
+                     class="card-img-top" alt="Australian Open 2023">
+                <div class="card-img-overlay">
+                    <p class="card-title wd-tennis-bottom-left mb-0">Tennis Tournament · LIVE</p>
+                    <h4 class="card-title wd-bottom-left mb-0">Australian Open 2023</h4>
+                </div>
+            </div>
+
+            <div class="card mt-1 wd-main-borders">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item wd-no-border">
+                        <i class="float-end fa fa-ellipsis-h me-2 mt-1 wd-grey-ellipsis"></i>
+                        <p class="card-subtitle text-muted mt-1">
+                            Politics · Trending
+                        </p>
+                        <span>
+                          <p class="card-title wd-bold-text mb-1">Seizures</p>
+                        </span>
+                        <p class="card-subtitle text-muted">
+                            4,953 Tuits
+                        </p>
+                    </li>
+                    <li class="list-group-item wd-no-border">
+                        <span>
+                          <p class="card-title wd-bold-text mb-1">#InfinityPool</p>
+                        </span>
+                        <p class="card-subtitle text-muted mb-0">
+                            See the electrifying thriller Infinity Pool in theaters - if you dare
+                        </p>
+                        <span>
+                            <i class="fa fa-location-arrow"></i>
+                        </span>
+                        <span>
+                            <p class="card-subtitle text-muted d-inline">
+                            Promoted by NEON
+                            </p>
+                        </span>
+                    </li>
+                    <li class="list-group-item wd-no-border">
+                        <i class="float-end fa fa-ellipsis-h me-2 mt-1 wd-grey-ellipsis"></i>
+                        <p class="card-subtitle text-muted mt-1">
+                            Sports · Trending
+                        </p>
+                        <span>
+                          <p class="card-title wd-bold-text mb-1">RIP Bean</p>
+                        </span>
+                        <p class="card-subtitle text-muted">
+                            18K Tuits
+                        </p>
+                    </li>
+                    <li class="list-group-item wd-no-border">
+                        <i class="float-end fa fa-ellipsis-h me-2 mt-1 wd-grey-ellipsis"></i>
+                        <p class="card-subtitle text-muted mt-1">
+                            Politics · Trending
+                        </p>
+                        <span>
+                          <p class="card-title wd-bold-text mb-0">Durham</p>
+                        </span>
+                        <span>
+                            <p class="card-subtitle text-muted d-inline">
+                            Trending with
+                            </p>
+                        </span>
+                        <span>
+                            <a class="card-subtitle text-decoration-none wd-barr" href="#">Barr</a>
+                        </span>
+                        <span id="comma">
+                            <p class="card-subtitle text-muted d-inline">
+                            ,
+                            </p>
+                        </span>
+                        <span>
+                            <a class="card-subtitle text-decoration-none wd-barr" href="#">Barr</a>
+                        </span>
+                    </li>
+                    <li class="list-group-item wd-no-border">
+                        <i class="float-end fa fa-ellipsis-h me-2 mt-1 wd-grey-ellipsis"></i>
+                        <p class="card-subtitle text-muted mt-1">
+                            Trending in Business and finance
+                        </p>
+                        <span>
+                          <p class="card-title wd-bold-text mb-1">#DirectedEvolution</p>
+                        </span>
+                        <p class="card-subtitle text-muted">
+                            172K Tuits
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--        Who to follow, right column-->
+        <div class="col-4 d-none d-lg-inline ps-4">
+            <ul class="list-group wd-follow-rounded-override">
+                <li class="list-group-item wd-bold-text wd-follow-override"
+                    id="who-to-follow">Who to follow</li>
+                <li class="list-group-item pb-0 wd-follow-override">
+                    <img class="pull-left me-xxl-3 me-xl-2 wd-rounded-icon"
+                         width="48px"
+                         src="../images/neu-dp.jpg">
+                    <button href="#" class="pull-right mt-1 btn-primary rounded-pill ps-2 pe-2
+                        wd-box-shadow-none wd-follow-button-style wd-follow-button-override">Follow</button>
+                    <span>
+                      <p class="d-inline wd-bold-text">Northeastern U.</p>
+                  </span>
+                    <span>
+                      <i class="fa fa-check-circle mt-1 ms-1 wd-absolute-position wd-blue-check-override"></i>
+                  </span>
+                    <p class="mb-2">@Northeastern</p>
+                </li>
+                <li class="list-group-item pb-0 wd-follow-override">
+                    <img class="pull-left me-xxl-3 me-xl-2 wd-rounded-icon"
+                         width="48px"
+                         src="../images/matt-wallace-dp.jpg">
+                    <button href="#" class="pull-right mt-1 btn-primary rounded-pill ps-2 pe-2
+                        wd-box-shadow-none wd-follow-button-style wd-follow-button-override">Follow</button>
+                    <span>
+                      <p class="d-inline wd-bold-text">Matt Wallace</p>
+                  </span>
+                    <span>
+                      <i class="fa fa-check-circle mt-1 ms-1 wd-absolute-position wd-blue-check-override"></i>
+                  </span>
+                    <p class="mb-2">@MattWallace888</p>
+                </li>
+                <li class="list-group-item pb-0 wd-follow-override">
+                    <img class="pull-left me-xxl-3 me-xl-2 wd-rounded-corners-dp-override mb-2"
+                         width="48px"
+                         src="../images/pointsbet-dp.png">
+                    <button href="#" class="pull-right mt-1 btn-primary rounded-pill ps-2 pe-2
+                        wd-box-shadow-none wd-follow-button-style wd-follow-button-override">Follow</button>
+                    <span>
+                      <p class="mb-0 wd-bold-text wd-pointsbet-limit media-query">PointsBet Sportsbook</p>
+                    </span>
+                    <span>
+                      <i class="fa fa-check-circle mt-1 wd-absolute-position wd-gold-check-override"></i>
+                    </span>
+                    <p class="mb-0" id="pointsbet-usa">@PointsBetUSA</p>
+                    <span>
+                        <i class="fa fa-location-arrow" id="promotion-arrow"></i>
+                    </span>
+                    <span>
+                        <p class="d-inline wd-promoted-override">Promoted</p>
+                    </span>
+                </li>
+                <li class="list-group-item pb-3 wd-follow-override">
+                    <a href="#" id="show-more">Show more</a>
+                </li>
+            </ul>
+
+            <div class="mt-3 ms-3">
+                <a href="#" class="text-decoration-none wd-small-text me-2">Terms of Service</a>
+                <a href="#" class="text-decoration-none wd-small-text me-2">Privacy Policy</a>
+                <a href="#" class="text-decoration-none wd-small-text me-2">Cookie Policy</a>
+                <br>
+                <a href="#" class="text-decoration-none wd-small-text me-2">Accessibility</a>
+                <a href="#" class="text-decoration-none wd-small-text me-2">Ads info</a>
+                <span>
+                    <a href="#" class="text-decoration-none wd-small-text me-2">More</a>
+                    <i class="fa fa-ellipsis-h d-inline wd-small-text" id="settings-more"></i>
+                </span>
+                <br>
+                <span>
+                    <i class="fa fa-copyright d-inline wd-small-text" id="copyright-icon"></i>
+                    <a href="#" class="text-decoration-none wd-small-text me-2">2023 Twitter, Inc.</a>
+                </span>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
