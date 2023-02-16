@@ -1,0 +1,53 @@
+.wd-bold-text {
+    font-weight: bold;
+}
+
+.wd-rounded-img {
+    border-radius: 10px
+}
+
+.wd-rounded-icon {
+    border-radius: 50%;
+}
+
+.wd-box-shadow-none {
+    box-shadow: none;
+}
+
+.wd-absolute-position {
+    position: absolute;
+}
+
+.wd-back-button {
+    color: white;
+    text-decoration: none;
+}
+
+.wd-rounded-cover-photo {
+    border-radius: 20px !important;
+}
+
+.wd-cover-fit {
+    object-fit: cover;
+}
+
+.wd-font-size-15 {
+    font-size: 15px;
+}
+
+.wd-user-dp {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.wd-user-dp-left {
+    width: 48px;
+    height: 570px;
+    float: left;
+}
+
+.wd-is-empty {
+    display: none;
+}

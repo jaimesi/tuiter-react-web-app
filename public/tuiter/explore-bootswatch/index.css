@@ -22,8 +22,37 @@
     color: deepskyblue;
 }
 
+.wd-bold-text {
+    font-weight: bold;
+}
+
+.wd-rounded-img {
+    border-radius: 10px
+}
+
+.wd-rounded-icon {
+    border-radius: 50%;
+}
+
+.wd-box-shadow-none {
+    box-shadow: none;
+}
+
 .wd-follow-button-style {
     width: 84px;
     height: 38px;
     border: none;
+}
+
+.wd-absolute-position {
+    position: absolute;
+}
+
+#tuiter-logo {
+    color: white;
+}
+
+.wd-back-button {
+    color: white;
+    text-decoration: none;
 }

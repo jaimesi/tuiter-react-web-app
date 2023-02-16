@@ -1,0 +1,27 @@
+.wd-card-body-border-top {
+    border-top: 1px solid #282828;
+}
+
+div.card {
+    background-color: black;
+}
+
+.wd-card-border {
+    border: 1px solid #282828 !important;
+}
+
+.wd-font-size-14 {
+    font-size: 14px;
+}
+
+.wd-width-74-percent {
+    width: 74%;
+}
+
+.wd-gray-color {
+    color: #555555;
+}
+
+.wd-border-bottom {
+    border-bottom: 1px solid #282828
+}
