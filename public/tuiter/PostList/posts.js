@@ -19,8 +19,7 @@ export default [
         userName: 'New York Post',
         handle: 'nypost',
         time: '23h',
-        postSummary: "Grimes seen reading Karl Marx following split with world's richest man Elon Musk " +
-            "trib.al/nx2Gfaq",
+        postSummary: `Grimes seen reading Karl Marx following split with world's richest man Elon Musk <a href="#" class="text-decoration-none">trib.al/nx2Gfaq</a>`,
         cardImage: '../images/grimes-reading.jpg',
         cardTitle: '',
         cardBody: '',
