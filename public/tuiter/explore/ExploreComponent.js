@@ -34,7 +34,7 @@ const ExploreComponent = () => {
         </ul>
         <!-- image with overlaid text -->
         <div class="card mb-2">
-            <img src="../images/spacex-starship.jpg"
+            <img src="../../images/spacex-starship.jpg"
             class="card-img-top" alt="SpaceX's Starship">
             <div class="card-img-overlay">
             <h2 class="card-title wd-bottom-left mb-0">SpaceX's Starship</h2>
