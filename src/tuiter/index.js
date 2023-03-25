@@ -12,6 +12,7 @@ import {Provider} from "react-redux";
 import HomeComponent from "./home";
 import ProfileComponent from "./profile";
 import profileReducer from "./profile/profile-reducer";
+import EditProfile from "./edit-profile";
 
 const store = configureStore(
     {reducer: {
@@ -34,6 +35,7 @@ function Tuiter() {
                         <Route path="home"    element={<HomeComponent />}/>
                         <Route path="explore" element={<ExploreComponent />}/>
                         <Route path="profile" element={<ProfileComponent />}/>
+                        <Route path="edit-profile" element={<EditProfile/>}/>
                     </Routes>
                 </div>
                 <div className="d-none d-lg-block col-lg-3 col-xl-3 col-xxl-4">
@@ -42,6 +44,7 @@ function Tuiter() {
                         <Route path="home"    element={<WhoToFollowList />}/>
                         <Route path="explore" element={<WhoToFollowList />}/>
                         <Route path="profile" element={<WhoToFollowList />}/>
+                        <Route path="edit-profile" element={<WhoToFollowList/>}/>
                     </Routes>
                 </div>
             </div>

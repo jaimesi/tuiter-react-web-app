@@ -24,3 +24,17 @@
 .wd-cover {
     object-fit: cover;
 }
+
+.wd-button-width {
+    width: 80px;
+}
+
+.wd-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wd-darkened-image {
+    filter: brightness(50%);
+}
