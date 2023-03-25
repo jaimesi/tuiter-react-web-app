@@ -1,7 +1,15 @@
 import React from "react";
 import TuitStats from "./tuit-stats";
+import {useDispatch} from "react-redux";
+import {deleteTuit} from "./tuits-reducer";
 
 const TuitItem = ({tuit}) => {
+
+    const dispatch = useDispatch();
+    const deleteTuitHandler = (id) => {
+        dispatch(deleteTuit(id));
+    }
+
     return (
         <div className="border border-muted">
             <div className="row mt-3 mb-3 ms-1">
@@ -10,6 +18,8 @@ const TuitItem = ({tuit}) => {
                 </div>
                 <div className="col-11 ps-2">
                     <div className="me-3 ms-4">
+                        <i className="bi bi-x-lg float-end"
+                           onClick={() => deleteTuitHandler(tuit._id)}></i>
                         <div className="d-inline fw-bold">{tuit.userName} </div>
                         <div className="d-inline text-primary"><i className="bi bi-check-circle-fill"></i></div>
                         <div className="d-inline ms-1"> {tuit.handle} · {tuit.time}</div>
