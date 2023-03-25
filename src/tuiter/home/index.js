@@ -1,10 +1,10 @@
-import HomePostList from "../home-post-list";
+import TuitsList from "../tuits/tuits-list";
 import "./index.css";
 
 const HomeComponent = () => {
     return(
         <>
-            <HomePostList/>
+            <TuitsList/>
         </>
     );
 };
