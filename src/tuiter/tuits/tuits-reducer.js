@@ -2,9 +2,9 @@ import { createSlice } from "@reduxjs/toolkit";
 import tuits from './tuits.json';
 
 const currentUser = {
-    "userName": "NASA",
-    "handle": "@nasa",
-    "image": "NASA-logo.png",
+    "userName": "Jaime Si",
+    "handle": "@jaimesi",
+    "image": "tuiter-profile-picture.jpg",
 };
 
 const templateTuit = {

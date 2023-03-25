@@ -1,0 +1,16 @@
+[
+  {
+    "firstName": "Jaime",
+    "lastName": "Si",
+    "handle": "@jaimesi",
+    "profilePicture": "tuiter-profile-picture.jpg",
+    "bannerPicture": "profile-banner.jpg",
+    "bio": "I like to talk about music production and social media. MSCS student @ NEU who enjoys web development and UI/UX.",
+    "website": "github.com/jaimesi",
+    "location": "Boston, MA",
+    "dateOfBirth": "04/07/1999",
+    "dateJoined": "March 2023",
+    "followingCount": 340,
+    "followersCount": 223
+  }
+]

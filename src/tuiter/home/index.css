@@ -2,8 +2,25 @@
     height: 48px;
     width: 48px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .wd-black-text {
     color: black;
+}
+
+.wd-nudge-right {
+    left: 20px;
+}
+
+.wd-nudge-bottom {
+    bottom: 30px;
+}
+
+.wd-nudge-up {
+    top: -30px;
+}
+
+.wd-cover {
+    object-fit: cover;
 }
