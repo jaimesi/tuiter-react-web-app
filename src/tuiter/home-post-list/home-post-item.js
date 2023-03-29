@@ -33,7 +33,7 @@ const HomePostItem = ({post}) => {
                 </div>
                 <div className="col-11 ps-3">
                     <div className="me-3">
-                        <div className="d-inline fw-bold">{post.userName} </div>
+                        <div className="d-inline fw-bold">{post.username} </div>
                         <div className="d-inline text-primary"><i className="bi bi-check-circle-fill"></i></div>
                         <div className="d-inline"> @{post.userHandle} · {post.time}</div>
                         <div className="d-inline float-end">
